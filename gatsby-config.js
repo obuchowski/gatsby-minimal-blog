@@ -6,9 +6,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `eCommerce Consulting Ulyana Kiklevich, Evgeni Obukhovsky`,
+    siteTitle: `eCommerce Consulting`,
     siteTitleAlt: `eCommerce Consulting`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+    siteHeadline: `Ulyana Kiklevich and Evgeni Obukhovsky. Magento 2 consultants.`,
     siteUrl: `https://www.ecommerce-consulting.pl`,
     siteDescription: `Ulyana Kiklevich and Evgeni Obukhovsky. Magento 2 consultants.`,
     siteLanguage: `en`,
@@ -32,7 +32,7 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Ulyana's `,
+            name: `Ulyana's LinkedIn`,
             url: `https://www.linkedin.com/in/ulyana-kiklevich-6b3b6a134/`,
           },
           {
@@ -40,7 +40,7 @@ module.exports = {
             url: `https://www.linkedin.com/in/evgeni-obukhovsky-342609134/`,
           },
           {
-            name: `Magento Feeds Service`,
+            name: `Feeds Service`,
             url: `http://feed.ecommerce-consulting.pl/`,
           },
         ],
