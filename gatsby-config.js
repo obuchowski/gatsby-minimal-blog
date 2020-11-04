@@ -40,7 +40,7 @@ module.exports = {
             url: `https://www.linkedin.com/in/evgeni-obukhovsky-342609134/`,
           },
           {
-            title: `Magento Feeds Service`,
+            name: `Magento Feeds Service`,
             url: `http://feed.ecommerce-consulting.pl/`,
           },
         ],
