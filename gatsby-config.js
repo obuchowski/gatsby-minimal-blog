@@ -32,12 +32,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Ulyana's LinkedIn`,
-            url: `https://www.linkedin.com/in/ulyana-kiklevich-6b3b6a134/`,
+            name: `Ulyana Kiklevich`,
+            url: `/ulyana-kiklevich`,
           },
           {
-            name: `Evgeni's LinkedIn`,
-            url: `https://www.linkedin.com/in/evgeni-obukhovsky-342609134/`,
+            name: `Evgeni Obukhovski`,
+            url: `/evgeni-obukhovski`,
           },
           {
             name: `Feeds Service`,

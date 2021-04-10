@@ -2,13 +2,17 @@
   {
     "id": 1,
     "name": "Evgeni Obukhovski",
-    "linked": "https://www.linkedin.com/in/evgeni-obukhovski  -342609134/",
-    "contact": "evgeny@ecommerce-consulting.pl"
+    "link": "/evgeni-obukhovski",
+    "contact": "evgeny@ecommerce-consulting.pl",
+    "linkedin": "https://www.linkedin.com/in/evgeni-obukhovski-342609134/",
+    "image": "evgeni.jpg"
   },
   {
     "id": 2,
     "name": "Ulyana Kiklevich",
-    "linked": "https://www.linkedin.com/in/ulyana-kiklevich-6b3b6a134/",
-    "contact": "uliana@ecommerce-consulting.pl"
+    "link": "/ulyana-kiklevich",
+    "contact": "uliana@ecommerce-consulting.pl",
+    "linkedin": "https://www.linkedin.com/in/ulyana-kiklevich-6b3b6a134/",
+    "image": "ulya.jpg"
   }
 ]

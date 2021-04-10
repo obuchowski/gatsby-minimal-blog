@@ -5,18 +5,18 @@ const developers = require('./developers.json');
 
 export const Header = ({developerId, projectGit}) => {
 
-    const {contact, linked, name} = developers.find((developer) => developerId === developer.id);
+    const {contact, link, name} = developers.find((developer) => developerId === developer.id);
 
     return (
         <>
             <div>
-                Developer: <a href={linked}>{name}</a>
+                Developer: <a rel="noreferrer" target="_blank" href={link}>{name}</a>
             </div>
             <div>
-                Github project Link: <a href={projectGit}>{projectGit}</a>
+                Github project Link: <a rel="noreferrer" target="_blank" href={projectGit}>{projectGit}</a>
             </div>
             <div>
-                Contact: <a href={`mailto:${contact}`}>{contact}</a>
+                Contact: <a rel="noreferrer" target="_blank" href={`mailto:${contact}`}>{contact}</a>
             </div>
         </>
     )
@@ -24,5 +24,5 @@ export const Header = ({developerId, projectGit}) => {
 
 Header.propTypes = {
     developerId: propTypes.number.isRequired,
-    projects: propTypes.string.isRequired
+    projectGit: propTypes.string.isRequired
 }

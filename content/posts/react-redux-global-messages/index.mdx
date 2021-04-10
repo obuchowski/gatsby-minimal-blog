@@ -25,13 +25,13 @@ import {Header} from '../../components/Header';
 Package.json со всеми зависимостями можно будет найти в гит-репозитории, указанном ниже.
 </p>
 
-<p>
+<div>
 Начнем с создания глобального хранилища наших сообщений - store. В initialState инициализируем объект с полем messages - пустой массив (line 4).
 Создаем Reducer. Прописываем следующие action’ы: добавить сообщение (line 9), удалить все сообщения (line 12), удалить конкретное сообщение (line 15).
 Чтобы идентифицировать сообщения, при добавлении его в массив генерируем уникальный _id (line 10).
 
 Создаем store. (line 23)
-</p>
+</div>
 
 ```jsx:title=src/components/base/store.js {4,9-10,12,15,23}
 import {createStore} from 'redux';
@@ -166,7 +166,7 @@ export const Message = (props) => {
 }
 ```
 
-<p>
+<div>
 Дальше обращаемся к компоненту Root.
     <p>
         1) Импортируем <code>Provider</code> from <code>'react-redux'</code> - line 5. В этот компонент нам нужно будет обернуть всю нашу страницу - line 53.
@@ -177,7 +177,7 @@ export const Message = (props) => {
     <p>
         3) При апдейте локации будет срабатывать функция <code>clearMessages</code> - line 22.
     </p>
-</p>
+</div>
 
 ```jsx:title=src/index.js {5,19,22,31,53}
 // React essential components

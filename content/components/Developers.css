@@ -1,0 +1,27 @@
+.linkedin {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.linkedin svg {
+    margin-right: 10px;
+}
+
+.developer-img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#skip-nav {
+    margin-top: -4rem;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-wrapper > div {
+    width: 49%;
+}
